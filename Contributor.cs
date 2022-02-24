@@ -4,6 +4,6 @@
     {
         public string Name { get; set; } = string.Empty;
 
-        public List<Skill> SkillList { get; set; } = new List<Skill>();
+        public List<Skill> Skills { get; set; } = new List<Skill>();
     }
 }
