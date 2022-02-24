@@ -8,6 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Project2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Helpers\MatchingHelper" />
+    <None Remove="Helpers\NewFile1.txt" />
+    <None Remove="NewFile1.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 

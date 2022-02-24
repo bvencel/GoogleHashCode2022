@@ -1,6 +1,6 @@
 ﻿namespace GoogleHashCode2022
 {
-    internal class Contributor
+    public class Contributor
     {
         public string Name { get; set; } = string.Empty;
 
